@@ -11,7 +11,7 @@ import ru.javastudy.springMVC.model.User;
 
 @Controller
 public class MainController {
-
+int t;
     /*Попадаем сюда на старте приложения */
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView main() {
